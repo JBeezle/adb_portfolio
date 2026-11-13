@@ -1,0 +1,11 @@
+use("meridian");
+
+print("count:");
+printjson(db.consultations.countDocuments());
+
+print("hypertension consultations:");
+printjson(db.consultations.find({ diagnoses: "Essential hypertension" },
+                                { patient: 1, doctor: 1, date: 1 }).toArray());
+
+print("one consultation:");
+printjson(db.consultations.findOne({ _id: "C002" }));

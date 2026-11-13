@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "C001",
+    "mrn": "MRN-001",
+    "patient": "Folake Adewale",
+    "doctor": "Dr. Amina Bello",
+    "date": "2026-10-05",
+    "diagnoses": ["Essential hypertension"],
+    "prescriptions": [ { "drug": "Amlodipine", "dosage": "5 mg" } ]
+  },
+  {
+    "_id": "C002",
+    "mrn": "MRN-001",
+    "patient": "Folake Adewale",
+    "doctor": "Dr. Chukwuma Obi",
+    "date": "2026-10-26",
+    "diagnoses": ["Type 2 diabetes mellitus", "Essential hypertension"],
+    "prescriptions": [ { "drug": "Metformin", "dosage": "500 mg" } ]
+  },
+  {
+    "_id": "C003",
+    "mrn": "MRN-002",
+    "patient": "Chidi Okonkwo",
+    "doctor": "Dr. Amina Bello",
+    "date": "2026-10-12",
+    "diagnoses": ["Plasmodium falciparum malaria"],
+    "prescriptions": [ { "drug": "Artemether/Lumefantrine", "dosage": "80/480 mg" } ]
+  }
+]
